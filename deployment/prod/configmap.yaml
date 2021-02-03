@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-backup
+  namespace: mysql
+data:
+  AWS_ACCESS_KEY_ID: ""
+  AWS_SECRET_ACCESS_KEY: ""
+  AWS_DEFAULT_REGION: ""
+  DB_HOST: ""
+  DB_USER: ""
+  DB_PASS: ""
+  S3_BUCKET: ""
